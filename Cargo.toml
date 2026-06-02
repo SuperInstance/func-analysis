@@ -1,0 +1,11 @@
+[package]
+name = "func-analysis"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/func-analysis"
+description = "Functional analysis in Rust — Banach spaces, Hilbert spaces, spectral theory, Fredholm operators, bounded linear operators"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
